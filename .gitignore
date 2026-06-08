@@ -1,0 +1,85 @@
+## Ignore Visual Studio temporary files, build results, and user settings
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.user-servicing
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto-generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017/2019/2022 cache directory
+.vs/
+# Generated File System Cache Directory
+TestResults/
+_ReSharper*/
+*.[Re]Sharper
+*.opensdf
+*.sdf
+*.opendb
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if using NuGet Sign Tool
+# !**/[Pp]ackages/sign/
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotnet-cli tools
+.dotnet/
+.templateengine/
+
+# Local configuration files
+appsettings.Development.json
+*.local.json
+*.user.json
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.temp
+
+# Publish output folder
+publish/
+
+# Crash dumps
+*.dmp
+*.mdmp
+
+# MSBuild Binary Logs
+*.binlog
